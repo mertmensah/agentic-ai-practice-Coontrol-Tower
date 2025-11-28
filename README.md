@@ -453,6 +453,21 @@ MIT License - feel free to use this project however you want!
 
 ---
 
+## 📊 Summary Table
+
+| Component | Technology | Location | Purpose |
+|-----------|-----------|----------|---------|
+| **Source Code** | Git | GitHub repo | Version control |
+| **Frontend** | React + Vite | GitHub Pages | User interface |
+| **Backend** | Flask + Python | Render.com | API server |
+| **AI Language** | Gemini 2.5 Flash | Google Cloud | Text processing |
+| **AI Images** | Stable Diffusion | Pollinations.ai | Image generation |
+| **Voice Input** | Web Speech API | User's browser | Speech-to-text |
+| **Database** | None | N/A | Stateless design |
+| **File Storage** | None | N/A | Base64 embedding |
+
+---
+
 **Made with 💚 and lots of ☕ for cat lovers everywhere!** 🐱✨
 
 ## Project Structure

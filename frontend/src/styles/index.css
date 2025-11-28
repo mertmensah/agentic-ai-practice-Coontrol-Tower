@@ -1,0 +1,32 @@
+/* Uber-Inspired Global Styles */
+
+:root {
+  --uber-black: #000000;
+  --uber-dark: #1a1a1a;
+  --uber-white: #ffffff;
+  --uber-green: #05C167;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Uber Move', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--uber-black);
+  color: var(--uber-white);
+}
+
+code {
+  font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+}
+
+#root {
+  min-height: 100vh;
+}

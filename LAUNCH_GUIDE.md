@@ -53,14 +53,19 @@ The app features an **Uber-inspired design** with:
 
 ### ✅ API Key Already Configured!
 
-The Google Gemini API key is **already set** as a global variable in:
+The Google Gemini API key is loaded from environment variables in:
 
 **`backend/config/settings.py`**
 ```python
-GEMINI_API_KEY = "AIzaSyAqcF3KFeco1eBAsx4rDNTSesNKQ-pzltk"
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "your-api-key-here")
 ```
 
-**No additional configuration needed!** Just run the app.
+**Configuration Required:** Create `backend/.env` file with your API key:
+```bash
+GEMINI_API_KEY=your-actual-api-key-here
+```
+
+⚠️ **Get your API key from:** https://makersuite.google.com/app/apikey
 
 ### 2. Install Dependencies (First Time Only)
 

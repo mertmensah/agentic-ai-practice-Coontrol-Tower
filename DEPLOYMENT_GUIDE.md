@@ -54,9 +54,10 @@ git push -u origin main
    - **Start Command**: `gunicorn app:app`
    - **Instance Type**: `Free`
 
-5. Add Environment Variables:
+5. **Add Environment Variables:**
    - Click **"Environment"** tab
-   - Add: `GEMINI_API_KEY` = `AIzaSyAqcF3KFeco1eBAsx4rDNTSesNKQ-pzltk`
+   - Add: `GEMINI_API_KEY` = `your-actual-gemini-api-key`
+   - ⚠️ **IMPORTANT:** Get your API key from https://makersuite.google.com/app/apikey
 
 6. Click **"Create Web Service"**
 

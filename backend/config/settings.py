@@ -11,7 +11,9 @@ load_dotenv()
 # ========================================
 # GOOGLE GEMINI API KEY (GLOBAL VARIABLE)
 # ========================================
-GEMINI_API_KEY = "AIzaSyAqcF3KFeco1eBAsx4rDNTSesNKQ-pzltk"
+# SECURITY: Get API key from environment variable
+# DO NOT hardcode the API key here!
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "your-api-key-here")
 
 # Application Settings
 DEBUG = os.getenv("DEBUG", "True").lower() == "true"

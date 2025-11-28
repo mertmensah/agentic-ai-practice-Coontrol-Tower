@@ -23,17 +23,19 @@ The Gemini API key is set as a **global variable** in the configuration file:
 **Location**: `backend/config/settings.py`
 
 ```python
-# Global Variable
-GEMINI_API_KEY = "AIzaSyAqcF3KFeco1eBAsx4rDNTSesNKQ-pzltk"
+# Global Variable (loaded from environment)
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "your-api-key-here")
 ```
 
-✅ **Already configured!** The API key is set and ready to use.
+✅ **Configuration Required:** Set your API key in `.env` file:
 
-### Optional: Using Environment Variables
-You can also set it in `.env`:
+### Setting Up Environment Variables
+Create `backend/.env` file:
 ```bash
-GEMINI_API_KEY=AIzaSyAqcF3KFeco1eBAsx4rDNTSesNKQ-pzltk
+GEMINI_API_KEY=your-actual-api-key-here
 ```
+
+⚠️ **Get your API key from:** https://makersuite.google.com/app/apikey
 
 ## API Endpoints
 

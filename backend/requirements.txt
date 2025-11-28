@@ -14,7 +14,7 @@ google-generativeai==0.3.2
 
 # Hugging Face - Image Generation
 huggingface-hub>=1.1.5
-Pillow==10.2.0
+Pillow>=10.0.0
 
 # Database (choose based on your needs)
 # psycopg2-binary==2.9.9  # PostgreSQL

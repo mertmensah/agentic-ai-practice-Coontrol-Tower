@@ -10,7 +10,10 @@ from agents.image_generation_agent import ImageGenerationAgent
 from agents.video_generation_agent import VideoGenerationAgent
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for frontend communication
+CORS(app, origins=[
+    "http://localhost:3000",
+    "https://mertmensah.github.io"
+])  # Enable CORS for frontend communication
 
 # Initialize agents
 orchestrator = MultiAgentOrchestrator()

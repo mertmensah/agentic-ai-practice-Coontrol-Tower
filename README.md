@@ -4,7 +4,8 @@
 
 **🔗 [Website: Coontrol Tower](https://mertmensah.github.io/agentic-ai-practice-Coontrol-Tower/)** | **📖 [Deployment Guide](DEPLOYMENT_GUIDE.md)** | **🆕 [New Features](NEW_FEATURES.md)**
 
-**Note, the backend is hosted on a free-tier Render.com instance. It will shutdown after a period of inactivity. 
+Note, the backend is hosted on a free-tier Render.com instance. It will shutdown after a period of inactivity.
+If when you try to use platform you get a Network error, please click [this link](https://cat-platform-backend.onrender.com) to restart the backend (will take ~2 minutes), and then refresh Coontrol Tower. 
 
 ---
 

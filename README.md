@@ -2,7 +2,9 @@
 
 > A comprehensive AI-powered platform for cat communication, image generation, and breed identification. Built with Google Gemini AI, React, and Flask.
 
-**🔗 [Live Demo](https://mertmensah.github.io/agentic-ai-practice-Coontrol-Tower/)** | **📖 [Deployment Guide](DEPLOYMENT_GUIDE.md)** | **🆕 [New Features](NEW_FEATURES.md)**
+**🔗 [Website: Coontrol Tower](https://mertmensah.github.io/agentic-ai-practice-Coontrol-Tower/)** | **📖 [Deployment Guide](DEPLOYMENT_GUIDE.md)** | **🆕 [New Features](NEW_FEATURES.md)**
+
+**Note, the backend is hosted on a free-tier Render.com instance. It will shutdown after a period of inactivity. 
 
 ---
 
